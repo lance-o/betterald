@@ -29,17 +29,14 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 3] Betterald 2",
 		mod: 'betterald2',
-		banlist: ['Uber'],
 		ruleset: ["Standard NatDex", "Data Mod", "Terastal Clause"],
-		unbanlist: ['Sand Veil',],
 		onValidateTeam(team, format) {
-			/**@type {{[k: string]: true}} */
 			let speciesTable = {};
 			let allowedTiers = ['Betterald OU'];
 			for (const set of team) {
 				let template = this.dex.species.get(set.species);
-				if (!allowedTiers.includes(template.tier)) {
-					return [set.species + ' is not legal in Betterald.'];
+				if (template.tier !== 'Betterald OU') {
+					return [set.species + ' is not legal in [Gen 3] Betterald 2.'];
 				}
 			}
 		},
