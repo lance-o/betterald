@@ -99553,4 +99553,1011 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
 	},
+
+
+	adamantris: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+aetherpent: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+akopi: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ameguano: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ammunick: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ankyron: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+arphillery: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+articfly: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+asterf: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+babybolt: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+battlenose: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+beachcubex: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+bigbrue: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+bigshaq: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+binglebop: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+bizaare: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+blording: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+boltzy: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+boodle: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+borb: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+bostfright: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+brackedeer: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+burowurm: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+buuny: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+cadirt: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+calibert: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+canishade: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+cascuffle: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+caterchill: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+celesdee: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+centerrayn: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+chillcoon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+chinocido: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+chirpeak: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+chokaze: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+chronorf: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+chubb: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+clevenge: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+clifhead: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+clodd: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+cloriff: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+coroverine: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+cragnet: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+crashilisk: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+crewnium: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+dandyflyon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+dandylion: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+darudape: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+deludent: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+diaguano: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+dimensean: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+dolorgeist: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+drildo: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ducksu: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ecstatick: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+einzarm: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+eleckton: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+eliminape: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+espuahua: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+etchead: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+fixadent: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+flamberd: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+flegs: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+flody: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+flowpiary: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+fuugolf: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+gauntlant: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+gecc: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+geometrick: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+glassilisk: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+golinus: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+goofbass: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+goosgue: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+gopnik: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+gregorlon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+grimodeus: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+grimp: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+groach: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+gyucc: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hachifox: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hallustial: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hamastar: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hamatonic: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+helpmee: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hemaskeeto: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hindenboom: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hobshark: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+honkhonk: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+hoppily: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ichifox: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ike: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+impactaur: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+intesterra: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+jostrich: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+kaber: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+kaens: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+kamizao: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+kapter: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+kaugurise: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+klaximus: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+kwismet: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+lahgoon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+larcenyzel: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+leadaghoul: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+lepsisand: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+longcow: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+lunear: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+marth: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+mcbaphomet: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+mhantom: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+monkrazy: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+mrkrabs: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+mubbius: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+mudbisco: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+mudisco: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+muscleaf: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+narpasord: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+neuroscale: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+noxiousmon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+nuggy: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+omnibola: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+paddetoad: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+parashale: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+pawnr: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+peacreaper: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+pengone: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+pinkgo: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+planktron: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+plommet: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+pluspectre: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+poisonmon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+polcamo: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+polevolt: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+poundsauce: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+pyratinom: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+quadruffle: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+quarophus: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+quostrich: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+rabboom: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+radillo: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+rainwood: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+rambull: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+ratomic: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+recyclimp: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+retrover: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+roguano: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+rookraw: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+runguy: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+salmeal: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+sapleak: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+saviathan: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+seedos: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+seedotx: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+seetres: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+shifox: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+shiroblank: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+silily: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+silverine: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+sinistall: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+sleuther: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+smokaze: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+smooke: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+snoogle: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+snowst: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+solear: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+soulogic: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+spharaoh: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+sphempress: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+squalash: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+stalagnet: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+stohmatic: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+stomm: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+stumpole: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+sykomantis: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tackalf: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+thestorm: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+thonkey: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+thriitake: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tikid: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tikindle: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tikinferno: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tinychu: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tooshroom: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+toxicmon: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tumbling: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+tussleweed: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+twerkyvats: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+vacaguin: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+vampunit: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+vampuny: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+vamsheol: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+voland: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+warnhal: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+weakleaf: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+weaksel: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+wheelo: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+worland: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+wrathilisk: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+wumpydump: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+yediggit: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
+zungarm: {
+  learnset: {
+  tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+},
+},
 };
