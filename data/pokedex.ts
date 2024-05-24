@@ -19731,7 +19731,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 5,
 	},
 	stumpole: {
-		num: 10001,
+		num: -2001,
 		name: "Stumpole",
 		types: ["Grass"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19744,7 +19744,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Grass"],
 	},
 	stohmatic: {
-		num: 10002,
+		num: -2002,
 		name: "Stohmatic",
 		types: ["Grass", "Electric"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19759,7 +19759,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Grass"],
 	},
 	polevolt: {
-		num: 10003,
+		num: -2003,
 		name: "Polevolt",
 		types: ["Grass", "Electric"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19773,7 +19773,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Grass"],
 	},
 	buuny: {
-		num: 10004,
+		num: -2004,
 		name: "Buuny",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19786,7 +19786,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	smooke: {
-		num: 10005,
+		num: -2005,
 		name: "Smooke",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19801,7 +19801,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	rabboom: {
-		num: 10006,
+		num: -2006,
 		name: "Rabboom",
 		types: ["Fire", "Steel"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19815,7 +19815,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	ducksu: {
-		num: 10007,
+		num: -2007,
 		name: "Ducksu",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19828,7 +19828,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying", "Water 1"],
 	},
 	goosgue: {
-		num: 10008,
+		num: -2008,
 		name: "Goosgue",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19843,7 +19843,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying", "Water 1"],
 	},
 	bigbrue: {
-		num: 10009,
+		num: -2009,
 		name: "Bigbrue",
 		types: ["Water", "Flying"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -19857,7 +19857,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying", "Water 1"],
 	},
 	weaksel: {
-		num: 10010,
+		num: -2010,
 		name: "Weaksel",
 		types: ["Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19870,7 +19870,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	larcenyzel: {
-		num: 10011,
+		num: -2011,
 		name: "Larcenyzel",
 		types: ["Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19884,7 +19884,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	flegs: {
-		num: 10012,
+		num: -2012,
 		name: "Flegs",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19897,7 +19897,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	flody: {
-		num: 10013,
+		num: -2013,
 		name: "Flody",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19911,7 +19911,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	ecstatick: {
-		num: 10014,
+		num: -2014,
 		name: "Ecstatick",
 		types: ["Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19924,7 +19924,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug", "Dragon"],
 	},
 	hemaskeeto: {
-		num: 10015,
+		num: -2015,
 		name: "Hemaskeeto",
 		types: ["Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19939,7 +19939,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug", "Dragon"],
 	},
 	narpasord: {
-		num: 10016,
+		num: -2016,
 		name: "Narpasord",
 		types: ["Bug", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19953,7 +19953,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug", "Dragon"],
 	},
 	groach: {
-		num: 10017,
+		num: -2017,
 		name: "Ecstatick",
 		types: ["Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19966,7 +19966,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	sykomantis: {
-		num: 10018,
+		num: -2018,
 		name: "Hemaskeeto",
 		types: ["Bug", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -19980,7 +19980,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	sapleak: {
-		num: 10019,
+		num: -2019,
 		name: "Sapleak",
 		types: ["Grass", "Water"],
 		baseStats: { hp: 50, atk: 30, def: 35, spa: 40, spd: 50, spe: 25 },
@@ -19992,7 +19992,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Grass"],
 	},
 	flowpiary: {
-		num: 10020,
+		num: -2020,
 		name: "Flowpiary",
 		types: ["Grass", "Water"],
 		baseStats: { hp: 75, atk: 45, def: 70, spa: 60, spd: 80, spe: 45 },
@@ -20006,7 +20006,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Grass"],
 	},
 	rainwood: {
-		num: 10021,
+		num: -2021,
 		name: "Rainwood",
 		types: ["Grass", "Water"],
 		baseStats: { hp: 110, atk: 65, def: 90, spa: 85, spd: 120, spe: 55 },
@@ -20020,7 +20020,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Grass"],
 	},
 	seedotbetterald: {
-		num: 10022,
+		num: -2022,
 		name: "Seedot-Betterald",
 		types: ["Grass"],
 		baseStats: { hp: 41, atk: 41, def: 51, spa: 31, spd: 31, spe: 31 },
@@ -20032,7 +20032,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Grass"],
 	},
 	seedos: {
-		num: 10023,
+		num: -2023,
 		name: "Seedos",
 		types: ["Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20047,7 +20047,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Grass"],
 	},
 	seetres: {
-		num: 10024,
+		num: -2024,
 		name: "Seetres",
 		types: ["Grass"],
 		baseStats: { hp: 123, atk: 103, def: 113, spa: 83, spd: 83, spe: 33 },
@@ -20061,7 +20061,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Grass"],
 	},
 	chirpeak: {
-		num: 10025,
+		num: -2025,
 		name: "Chirpeak",
 		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20074,7 +20074,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	kamizao: {
-		num: 10026,
+		num: -2026,
 		name: "Kamizao",
 		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20088,7 +20088,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	beachcube: {
-		num: 10027,
+		num: -2027,
 		name: "Beachcube",
 		types: ["Water", "Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20100,7 +20100,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Fairy"],
 	},
 	mhantom: {
-		num: 10028,
+		num: -2028,
 		name: "Mhantom",
 		types: ["Water", "Ghost"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20112,7 +20112,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1"],
 	},
 	ichifox: {
-		num: 10029,
+		num: -2029,
 		name: "Ichifox",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20125,7 +20125,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	shifox: {
-		num: 10030,
+		num: -2030,
 		name: "Shifox",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20140,7 +20140,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	hachifox: {
-		num: 10031,
+		num: -2031,
 		name: "Hachifox",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20154,7 +20154,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	runguy: {
-		num: 10032,
+		num: -2032,
 		name: "Runguy",
 		types: ["Grass", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20167,7 +20167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy", "Grass"],
 	},
 	tooshroom: {
-		num: 10033,
+		num: -2033,
 		name: "Tooshroom",
 		types: ["Grass", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20182,7 +20182,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy", "Grass"],
 	},
 	thriitake: {
-		num: 10034,
+		num: -2034,
 		name: "Thriitake",
 		types: ["Grass", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20197,7 +20197,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy", "Grass"],
 	},
 	quadruffle: {
-		num: 10035,
+		num: -2035,
 		name: "Quadruffle",
 		types: ["Grass", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20211,7 +20211,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy", "Grass"],
 	},
 	hoppily: {
-		num: 10036,
+		num: -2036,
 		name: "Hoppily",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20224,7 +20224,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Water 1"],
 	},
 	silily: {
-		num: 10037,
+		num: -2037,
 		name: "Silily",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20239,7 +20239,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Water 1"],
 	},
 	paddetoad: {
-		num: 10038,
+		num: -2038,
 		name: "Paddetoad",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20253,7 +20253,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Water 1"],
 	},
 	caterchill: {
-		num: 10039,
+		num: -2039,
 		name: "Caterchill",
 		types: ["Bug", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20266,7 +20266,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	chillcoon: {
-		num: 10040,
+		num: -2040,
 		name: "Chillcoon",
 		types: ["Bug", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20281,7 +20281,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	articfly: {
-		num: 10041,
+		num: -2041,
 		name: "Articfly",
 		types: ["Bug", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20295,7 +20295,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	glassilisk: {
-		num: 10042,
+		num: -2042,
 		name: "Glassilisk",
 		types: ["Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20309,7 +20309,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral", "Dragon"],
 	},
 	wrathilisk: {
-		num: 10043,
+		num: -2043,
 		name: "Wrathilisk",
 		types: ["Dragon", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20323,7 +20323,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral", "Dragon"],
 	},
 	crashilisk: {
-		num: 10044,
+		num: -2044,
 		name: "Crashilisk",
 		types: ["Dragon", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20337,7 +20337,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral", "Dragon"],
 	},
 	roguano: {
-		num: 10045,
+		num: -2045,
 		name: "Roguano",
 		types: ["Rock", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20350,7 +20350,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying", "Mineral"],
 	},
 	ameguano: {
-		num: 10046,
+		num: -2046,
 		name: "Ameguano",
 		types: ["Rock", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20365,7 +20365,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying", "Mineral"],
 	},
 	diaguano: {
-		num: 10047,
+		num: -2047,
 		name: "Diaguano",
 		types: ["Rock", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20379,7 +20379,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying", "Mineral"],
 	},
 	einzarm: {
-		num: 10048,
+		num: -2048,
 		name: "Einzarm",
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20392,7 +20392,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	zungarm: {
-		num: 10049,
+		num: -2049,
 		name: "Zungarm",
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20406,7 +20406,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	fuugolf: {
-		num: 10050,
+		num: -2050,
 		name: "Fuugolf",
 		types: ["Water", "Rock"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20419,7 +20419,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	pyratinom: {
-		num: 10051,
+		num: -2051,
 		name: "Pyratinom",
 		types: ["Water", "Rock"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20433,7 +20433,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	goofbass: {
-		num: 10052,
+		num: -2052,
 		name: "Goofbass",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20446,7 +20446,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	hobshark: {
-		num: 10053,
+		num: -2053,
 		name: "Hobshark",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20460,7 +20460,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	twerkyvats: {
-		num: 10054,
+		num: -2054,
 		name: "Twerkyvats",
 		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20472,7 +20472,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	weakleaf: {
-		num: 10055,
+		num: -2055,
 		name: "Weakleaf",
 		types: ["Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20485,7 +20485,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Grass", "Human-Like"],
 	},
 	muscleaf: {
-		num: 10056,
+		num: -2056,
 		name: "Muscleaf",
 		types: ["Grass", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20499,7 +20499,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Grass", "Human-Like"],
 	},
 	cragnet: {
-		num: 10057,
+		num: -2057,
 		name: "Cragnet",
 		types: ["Rock", "Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20512,7 +20512,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	stalagnet: {
-		num: 10058,
+		num: -2058,
 		name: "Stalagnet",
 		types: ["Rock", "Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20526,7 +20526,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	mudbisco: {
-		num: 10059,
+		num: -2059,
 		name: "Mudbisco",
 		types: ["Ground"],
 		baseStats: { hp: 65, atk: 50, def: 75, spa: 40, spd: 65, spe: 30 },
@@ -20538,7 +20538,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	mudisco: {
-		num: 10060,
+		num: -2060,
 		name: "Mudisco",
 		types: ["Ground", "Electric"],
 		baseStats: { hp: 80, atk: 115, def: 90, spa: 60, spd: 80, spe: 80 },
@@ -20552,7 +20552,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	brackedeer: {
-		num: 10061,
+		num: -2061,
 		name: "Brackedeer",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20565,7 +20565,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	eliminape: {
-		num: 10062,
+		num: -2062,
 		name: "Eliminape",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20579,7 +20579,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	vampuny: {
-		num: 10063,
+		num: -2063,
 		name: "Vampuny",
 		types: ["Bug", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20592,7 +20592,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	vampunit: {
-		num: 10064,
+		num: -2064,
 		name: "Vampunit",
 		types: ["Bug", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20607,7 +20607,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	vamsheol: {
-		num: 10065,
+		num: -2065,
 		name: "Vamsheol",
 		types: ["Bug", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20621,7 +20621,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	sleuther: {
-		num: 10066,
+		num: -2066,
 		name: "Sleuther",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20634,7 +20634,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	clevenge: {
-		num: 10067,
+		num: -2067,
 		name: "Clevenge",
 		types: ["Water", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20648,7 +20648,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	dolorgeist: {
-		num: 10068,
+		num: -2068,
 		name: "Dolorgeist",
 		types: ["Ghost"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20660,7 +20660,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	chubb: {
-		num: 10069,
+		num: -2069,
 		name: "Chubb",
 		types: ["Normal"],
 		gender: "M",
@@ -20672,7 +20672,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	ammunick: {
-		num: 10070,
+		num: -2070,
 		name: "Ammunick",
 		types: ["Steel"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -20685,7 +20685,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	calibert: {
-		num: 10071,
+		num: -2071,
 		name: "Calibert",
 		types: ["Steel"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -20700,7 +20700,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	arphillery: {
-		num: 10072,
+		num: -2072,
 		name: "Arphillery",
 		types: ["Steel"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -20714,7 +20714,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	hamastar: {
-		num: 10073,
+		num: -2073,
 		name: "Hamaster",
 		types: ["Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20727,7 +20727,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	hamatonic: {
-		num: 10074,
+		num: -2074,
 		name: "Hamatonic",
 		types: ["Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20742,7 +20742,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	ratomic: {
-		num: 10075,
+		num: -2075,
 		name: "Ratomic",
 		types: ["Electric", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20756,7 +20756,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	fixadent: {
-		num: 10076,
+		num: -2076,
 		name: "Fixadent",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20769,7 +20769,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy"],
 	},
 	deludent: {
-		num: 10077,
+		num: -2077,
 		name: "Deludent",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20783,7 +20783,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Fairy"],
 	},
 	gecc: {
-		num: 10078,
+		num: -2078,
 		name: "Gecc",
 		types: ["Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20796,7 +20796,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Dragon"],
 	},
 	gyucc: {
-		num: 10079,
+		num: -2079,
 		name: "Gyucc",
 		types: ["Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20810,7 +20810,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Dragon"],
 	},
 	canishade: {
-		num: 10080,
+		num: -2080,
 		name: "Canishade",
 		types: ["Poison", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20823,7 +20823,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Dragon"],
 	},
 	neuroscale: {
-		num: 10081,
+		num: -2081,
 		name: "Neuroscale",
 		types: ["Poison", "Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20837,7 +20837,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Dragon"],
 	},
 	babybolt: {
-		num: 10082,
+		num: -2082,
 		name: "Babybolt",
 		types: ["Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20850,7 +20850,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	boltzy: {
-		num: 10083,
+		num: -2083,
 		name: "Boltzy",
 		types: ["Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20864,7 +20864,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	retrover: {
-		num: 10084,
+		num: -2084,
 		name: "Retrover",
 		types: ["Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20877,7 +20877,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	soulogic: {
-		num: 10085,
+		num: -2085,
 		name: "Soulogic",
 		types: ["Electric", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20891,7 +20891,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	geometrick: {
-		num: 10086,
+		num: -2086,
 		name: "Geometrick",
 		types: ["Normal"],
 		gender: "N",
@@ -20904,7 +20904,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	dimensean: {
-		num: 10087,
+		num: -2087,
 		name: "Dimensean",
 		types: ["Normal"],
 		gender: "N",
@@ -20918,7 +20918,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	poisonmon: {
-		num: 10088,
+		num: -2088,
 		name: "Poisonmon",
 		types: ["Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20931,7 +20931,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	toxicmon: {
-		num: 10089,
+		num: -2089,
 		name: "Toxicmon",
 		types: ["Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20946,7 +20946,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	noxiousmon: {
-		num: 10090,
+		num: -2090,
 		name: "Noxiousmon",
 		types: ["Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20960,7 +20960,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	helpmee: {
-		num: 10091,
+		num: -2091,
 		name: "Helpmee",
 		types: ["Fire"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20972,7 +20972,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	tikid: {
-		num: 10092,
+		num: -2092,
 		name: "Tikid",
 		types: ["Fire", "Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -20985,7 +20985,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	tikindle: {
-		num: 10093,
+		num: -2093,
 		name: "Tikindle",
 		types: ["Fire", "Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21000,7 +21000,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	tikinferno: {
-		num: 10094,
+		num: -2094,
 		name: "Tikinferno",
 		types: ["Fire", "Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21014,7 +21014,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	yediggit: {
-		num: 10095,
+		num: -2095,
 		name: "Yediggit",
 		types: ["Ground", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21027,7 +21027,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous", "Mineral"],
 	},
 	drildo: {
-		num: 10096,
+		num: -2096,
 		name: "Drildo",
 		types: ["Ground", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21041,7 +21041,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous", "Mineral"],
 	},
 	pawnr: {
-		num: 10097,
+		num: -2097,
 		name: "Pawnr",
 		types: ["Water", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21054,7 +21054,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3", "Bug"],
 	},
 	rookraw: {
-		num: 10098,
+		num: -2098,
 		name: "Rookraw",
 		types: ["Water", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21068,7 +21068,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3", "Bug"],
 	},
 	planktron: {
-		num: 10099,
+		num: -2099,
 		name: "Planktron",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21081,7 +21081,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3"],
 	},
 	eleckton: {
-		num: 10100,
+		num: -2100,
 		name: "Eleckton",
 		types: ["Water", "Electric"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21095,7 +21095,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3"],
 	},
 	nuggy: {
-		num: 10101,
+		num: -2101,
 		name: "Nuggy",
 		types: ["Ghost"],
 		gender: "N",
@@ -21108,7 +21108,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	mcbaphomet: {
-		num: 10102,
+		num: -2102,
 		name: "McBaphomet",
 		types: ["Ghost", "Fire"],
 		gender: "N",
@@ -21123,7 +21123,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	smokaze: {
-		num: 10103,
+		num: -2103,
 		name: "Smokaze",
 		types: ["Fire", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21136,7 +21136,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Dragon"],
 	},
 	chokaze: {
-		num: 10104,
+		num: -2104,
 		name: "Chokaze",
 		types: ["Fire", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21150,7 +21150,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Dragon"],
 	},
 	recyclimp: {
-		num: 10105,
+		num: -2105,
 		name: "Recyclimp",
 		types: ["Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21163,7 +21163,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous", "Mineral"],
 	},
 	leadaghoul: {
-		num: 10106,
+		num: -2106,
 		name: "Leadaghoul",
 		types: ["Steel", "Ghost"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21178,7 +21178,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous", "Mineral"],
 	},
 	peacreaper: {
-		num: 10107,
+		num: -2107,
 		name: "Peacreaper",
 		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21192,7 +21192,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous", "Mineral"],
 	},
 	worland: {
-		num: 10108,
+		num: -2108,
 		name: "Worland",
 		types: ["Ground", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21205,7 +21205,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	voland: {
-		num: 10109,
+		num: -2109,
 		name: "Voland",
 		types: ["Ground", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21219,7 +21219,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	binglebop: {
-		num: 10110,
+		num: -2110,
 		name: "Binglebop",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21232,7 +21232,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Fairy"],
 	},
 	wumpydump: {
-		num: 10111,
+		num: -2111,
 		name: "Wumpydump",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21246,7 +21246,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Fairy"],
 	},
 	cadirt: {
-		num: 10112,
+		num: -2112,
 		name: "Cadirt",
 		types: ["Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21259,7 +21259,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	asterf: {
-		num: 10113,
+		num: -2113,
 		name: "Asterf",
 		types: ["Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21274,7 +21274,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	intesterra: {
-		num: 10114,
+		num: -2114,
 		name: "Intesterra",
 		types: ["Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21288,7 +21288,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	polcamo: {
-		num: 10115,
+		num: -2115,
 		name: "Polcamo",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21300,7 +21300,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3"],
 	},
 	plommet: {
-		num: 10116,
+		num: -2116,
 		name: "Plommet",
 		types: ["Rock", "Fire"],
 		gender: "N",
@@ -21312,7 +21312,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	burowurm: {
-		num: 10117,
+		num: -2117,
 		name: "Burowurm",
 		types: ["Ground", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21325,7 +21325,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	centerrayn: {
-		num: 10118,
+		num: -2118,
 		name: "Centerrayn",
 		types: ["Ground", "Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21339,7 +21339,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	tumbling: {
-		num: 10119,
+		num: -2119,
 		name: "Tumbling",
 		types: ["Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21352,7 +21352,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Grass", "Human-Like"],
 	},
 	tussleweed: {
-		num: 10120,
+		num: -2120,
 		name: "Tussleweed",
 		types: ["Grass", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21366,7 +21366,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Grass", "Human-Like"],
 	},
 	silverine: {
-		num: 10121,
+		num: -2121,
 		name: "Silverine",
 		types: ["Normal", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21379,7 +21379,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	coroverine: {
-		num: 10122,
+		num: -2122,
 		name: "Coroverine",
 		types: ["Poison", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21393,7 +21393,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	solear: {
-		num: 10123,
+		num: -2123,
 		name: "Solear",
 		types: ["Fire"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21405,7 +21405,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	lunear: {
-		num: 10124,
+		num: -2124,
 		name: "Lunear",
 		types: ["Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21417,7 +21417,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	celesdee: {
-		num: 10125,
+		num: -2125,
 		name: "Celesdee",
 		types: ["Poison", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21429,7 +21429,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	hallustial: {
-		num: 10126,
+		num: -2126,
 		name: "Hallustial",
 		types: ["Dark", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21441,7 +21441,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	mubbius: {
-		num: 10127,
+		num: -2127,
 		name: "Mubbius",
 		types: ["Water", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21454,7 +21454,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	klaximus: {
-		num: 10128,
+		num: -2128,
 		name: "Klaximus",
 		types: ["Water", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21468,7 +21468,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 2"],
 	},
 	squalash: {
-		num: 10129,
+		num: -2129,
 		name: "Squalash",
 		types: ["Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21481,7 +21481,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1"],
 	},
 	cascuffle: {
-		num: 10130,
+		num: -2130,
 		name: "Cascuffle",
 		types: ["Water", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21495,7 +21495,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1"],
 	},
 	spharaoh: {
-		num: 10131,
+		num: -2131,
 		name: "Spharaoh",
 		types: ["Ground"],
 		gender: "M",
@@ -21507,7 +21507,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	sphempress: {
-		num: 10132,
+		num: -2132,
 		name: "Sphempress",
 		types: ["Ground", "Dark"],
 		gender: "F",
@@ -21519,7 +21519,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	ankyron: {
-		num: 10133,
+		num: -2133,
 		name: "Ankyron",
 		types: ["Rock", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21532,7 +21532,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster"],
 	},
 	adamantris: {
-		num: 10134,
+		num: -2134,
 		name: "Adamantris",
 		types: ["Rock", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21546,7 +21546,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3"], //NOTE: Accurate to Betterald 1.1.4
 	},
 	parashale: {
-		num: 10135,
+		num: -2135,
 		name: "Parashale",
 		types: ["Rock", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21559,7 +21559,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Dragon"],
 	},
 	quarophus: {
-		num: 10136,
+		num: -2136,
 		name: "Quarophus",
 		types: ["Rock", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21573,7 +21573,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Dragon"],
 	},
 	thonkey: {
-		num: 10137,
+		num: -2137,
 		name: "Thonkey",
 		types: ["Psychic", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21586,7 +21586,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	monkrazy: {
-		num: 10138,
+		num: -2138,
 		name: "Monkrazy",
 		types: ["Psychic", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21600,7 +21600,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	clodd: {
-		num: 10139,
+		num: -2139,
 		name: "Clodd",
 		types: ["Flying"],
 		gender: "N",
@@ -21613,7 +21613,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	stomm: {
-		num: 10140,
+		num: -2140,
 		name: "Stomm",
 		types: ["Flying", "Electric"],
 		genderRatio: { M: 0.25, F: 0.75 },// # Accurate to Betterald 1.1.4
@@ -21627,7 +21627,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	salmeal: {
-		num: 10141,
+		num: -2141,
 		name: "Salmeal",
 		types: ["Ice", "Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21640,7 +21640,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Dragon"],
 	},
 	saviathan: {
-		num: 10142,
+		num: -2142,
 		name: "Saviathan",
 		types: ["Ice", "Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21654,7 +21654,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Dragon"],
 	},
 	battlenose: {
-		num: 10143,
+		num: -2143,
 		name: "Battlenose",
 		types: ["Water", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21667,7 +21667,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1"],
 	},
 	warnhal: {
-		num: 10144,
+		num: -2144,
 		name: "Warnhal",
 		types: ["Water", "Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21681,7 +21681,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1"],
 	},
 	kaens: {
-		num: 10145,
+		num: -2145,
 		name: "Kaens",
 		types: ["Normal"],
 		gender: "M",
@@ -21693,7 +21693,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	kwismet: {
-		num: 10146,
+		num: -2146,
 		name: "Kwismet",
 		types: ["Ghost"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21706,7 +21706,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	kaugurise: {
-		num: 10147,
+		num: -2147,
 		name: "Kaugurise",
 		types: ["Ghost", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21720,7 +21720,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	shiroblank: {
-		num: 10148,
+		num: -2148,
 		name: "Shiroblank",
 		types: ["Ghost", "Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21732,7 +21732,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	hindenboom: {
-		num: 10149,
+		num: -2149,
 		name: "Hindenboom",
 		types: ["Fire", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21744,7 +21744,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	dandylion: {
-		num: 10150,
+		num: -2150,
 		name: "Dandylion",
 		types: ["Grass"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21757,7 +21757,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Grass"],
 	},
 	dandyflyon: {
-		num: 10151,
+		num: -2151,
 		name: "Dandyflyon",
 		types: ["Grass", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21771,7 +21771,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Grass"],
 	},
 	etchead: {
-		num: 10152,
+		num: -2152,
 		name: "Etchead",
 		types: ["Rock"],
 		gender: "N",
@@ -21784,7 +21784,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	clifhead: {
-		num: 10153,
+		num: -2153,
 		name: "Clifhead",
 		types: ["Rock"],
 		gender: "N",
@@ -21798,7 +21798,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	grimp: {
-		num: 10154,
+		num: -2154,
 		name: "Grimp",
 		types: ["Dark", "Flying"],
 		genderRatio: { M: 0.75, F: 0.25 },
@@ -21811,7 +21811,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Dragon", "Flying"],
 	},
 	grimodeus: {
-		num: 10155,
+		num: -2155,
 		name: "Grimodeus",
 		types: ["Dark", "Flying"],
 		genderRatio: { M: 0.75, F: 0.25 },
@@ -21825,7 +21825,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Dragon", "Flying"],
 	},
 	espuahua: {
-		num: 10156,
+		num: -2156,
 		name: "Espuahua",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21838,7 +21838,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	chinocido: {
-		num: 10157,
+		num: -2157,
 		name: "Chinocido",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21852,7 +21852,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	gauntlant: {
-		num: 10158,
+		num: -2158,
 		name: "Gauntlant",
 		types: ["Bug", "Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21864,7 +21864,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	snowst: {
-		num: 10159,
+		num: -2159,
 		name: "Snowst",
 		types: ["Ghost", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21877,7 +21877,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	boodle: {
-		num: 10160,
+		num: -2160,
 		name: "Boodle",
 		types: ["Ghost", "Water"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21892,7 +21892,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	bostfright: {
-		num: 10161,
+		num: -2161,
 		name: "Bostfright",
 		types: ["Ghost", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21907,7 +21907,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	pinkgo: {
-		num: 10162,
+		num: -2162,
 		name: "Pinkgo",
 		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21920,7 +21920,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	flamberd: {
-		num: 10163,
+		num: -2163,
 		name: "Flamberd",
 		types: ["Fire", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21934,7 +21934,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	crewnium: {
-		num: 10164,
+		num: -2164,
 		name: "Crewnium",
 		types: ["Normal"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21946,7 +21946,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	wheelo: {
-		num: 10165,
+		num: -2165,
 		name: "Wheelo",
 		types: ["Rock", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21959,7 +21959,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Mineral"],
 	},
 	radillo: {
-		num: 10166,
+		num: -2166,
 		name: "Radillo",
 		types: ["Rock", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21973,7 +21973,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Mineral"],
 	},
 	blording: {
-		num: 10167,
+		num: -2167,
 		name: "Blording",
 		types: ["Steel"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21985,7 +21985,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	cloriff: {
-		num: 10168,
+		num: -2168,
 		name: "Cloriff",
 		types: ["Rock"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -21997,7 +21997,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	borb: {
-		num: 10169,
+		num: -2169,
 		name: "Borb",
 		types: ["Electric", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22010,7 +22010,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	snoogle: {
-		num: 10170,
+		num: -2170,
 		name: "Snoogle",
 		types: ["Ground", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22024,7 +22024,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	vacaguin: {
-		num: 10171,
+		num: -2171,
 		name: "Vacaguin",
 		types: ["Water", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22037,7 +22037,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Water 1"],
 	},
 	pengone: {
-		num: 10172,
+		num: -2172,
 		name: "Pengone",
 		types: ["Water", "Ice"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22051,7 +22051,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Water 1"],
 	},
 	jostrich: {
-		num: 10173,
+		num: -2173,
 		name: "Jostrich",
 		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22064,7 +22064,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	quostrich: {
-		num: 10174,
+		num: -2174,
 		name: "Quostrich",
 		types: ["Normal", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22078,7 +22078,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	longcow: {
-		num: 10175,
+		num: -2175,
 		name: "Longcow",
 		types: ["Normal"],
 		gender: "F",
@@ -22090,7 +22090,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	lahgoon: {
-		num: 10176,
+		num: -2176,
 		name: "Lahgoon",
 		types: ["Water", "Poison"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22102,7 +22102,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Human-Like"],
 	},
 	akopi: {
-		num: 10177,
+		num: -2177,
 		name: "Akopi",
 		types: ["Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22115,7 +22115,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	sinistall: {
-		num: 10178,
+		num: -2178,
 		name: "Sinistall",
 		types: ["Dark"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22129,7 +22129,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	mrkrabs: {
-		num: 10179,
+		num: -2179,
 		name: "Mr. Krabs",
 		types: ["Water"],
 		gender: "M",
@@ -22141,7 +22141,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 3"],
 	},
 	gopnik: {
-		num: 10180,
+		num: -2180,
 		name: "Gopnik",
 		types: ["Dark"],
 		gender: "M",
@@ -22153,7 +22153,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	chronorf: {
-		num: 10181,
+		num: -2181,
 		name: "Chronorf",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22166,7 +22166,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster"],
 	},
 	gregorlon: {
-		num: 10182,
+		num: -2182,
 		name: "Gregorlon",
 		types: ["Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22180,7 +22180,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster"],
 	},
 	honkhonk: {
-		num: 10183,
+		num: -2183,
 		name: "Honkhonk",
 		types: ["Normal", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22193,7 +22193,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	bizaare: {
-		num: 10184,
+		num: -2184,
 		name: "Bizaare",
 		types: ["Normal", "Psychic"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22207,7 +22207,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	marth: {
-		num: 10185,
+		num: -2185,
 		name: "Marth",
 		types: ["Steel"],
 		gender: "M",
@@ -22220,7 +22220,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	ike: {
-		num: 10186,
+		num: -2186,
 		name: "Ike",
 		types: ["Steel"],
 		gender: "M",
@@ -22234,7 +22234,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Human-Like"],
 	},
 	kaber: {
-		num: 10187,
+		num: -2187,
 		name: "Kaber",
 		types: ["Fighting", "Flying"],
 		gender: "N",
@@ -22247,7 +22247,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	kapter: {
-		num: 10188,
+		num: -2188,
 		name: "Kapter",
 		types: ["Fighting", "Flying"],
 		gender: "N",
@@ -22261,7 +22261,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	aetherpent: {
-		num: 10189,
+		num: -2189,
 		name: "Aetherpent",
 		types: ["Dragon"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22273,7 +22273,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Dragon"],
 	},
 	tackalf: {
-		num: 10190,
+		num: -2190,
 		name: "Tackalf",
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22286,7 +22286,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	rambull: {
-		num: 10191,
+		num: -2191,
 		name: "Rambull",
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22301,7 +22301,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	impactaur: {
-		num: 10192,
+		num: -2192,
 		name: "Impactaur",
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
@@ -22315,7 +22315,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Monster"],
 	},
 	lepsisand: {
-		num: 10193,
+		num: -2193,
 		name: "Lepsisand",
 		types: ["Ground"],
 		gender: "N",
@@ -22328,7 +22328,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Sub-Legendary"],
 	},
 	tinychu: {
-		num: 10194,
+		num: -2194,
 		name: "Tinychu",
 		types: ["Fighting"],
 		gender: "N",
@@ -22341,7 +22341,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Sub-Legendary"],
 	},
 	darudape: {
-		num: 10195,
+		num: -2195,
 		name: "Darudape",
 		types: ["Rock"],
 		gender: "N",
@@ -22354,7 +22354,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Sub-Legendary"],
 	},
 	pluspectre: {
-		num: 10196,
+		num: -2196,
 		name: "Pluspectre",
 		types: ["Electric", "Ghost"],
 		gender: "N",
@@ -22367,7 +22367,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 	},
 	golinus: {
-		num: 10197,
+		num: -2197,
 		name: "Golinus",
 		types: ["Electric", "Steel"],
 		gender: "N",
@@ -22380,7 +22380,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 	},
 	thestorm: {
-		num: 10198,
+		num: -2198,
 		name: "The Storm",
 		types: ["Water", "Electric"],
 		gender: "N",
@@ -22393,7 +22393,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 	},
 	poundsauce: {
-		num: 10199,
+		num: -2199,
 		name: "Poundsauce",
 		types: ["Ground"],
 		gender: "N",
@@ -22406,7 +22406,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 	},
 	omnibola: {
-		num: 10200,
+		num: -2200,
 		name: "Omnibola",
 		types: ["Dragon", "Poison"],
 		gender: "N",
@@ -22419,7 +22419,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Restricted Legendary"],
 	},
 	bigshaq: {
-		num: 10201,
+		num: -2201,
 		name: "Big Shaq",
 		types: ["Fighting", "Dragon"],
 		gender: "N",
