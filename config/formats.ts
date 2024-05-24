@@ -21,9 +21,19 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	///////////////////// Gen 9 Pet Mods //////////////////////////
 	///////////////////////////////////////////////////////////////
+	{ section: "Betterald Section", 
+		column:1,
+	},
+	{
+		name: "[Gen 3] Betterald",
+		desc: ["<b>Betterald</b>: Beachcube's favourite."],
+		mod: 'betterald',
+		banlist: ['Uber'],
+		unbanlist: ['Sand Veil',],
+	},
 	{
 		section: "Gen 9 Pet Mods",
-		column: 1,
+		column: 5,
 		// name: "gen9petmods",
 	},
 	{
