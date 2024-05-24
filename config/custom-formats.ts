@@ -10,6 +10,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 3] Betterald",
 		desc: ["<b>Betterald</b>: Beachcube's favourite."],
+		gameType: 'singles',
 		mod: 'betterald',
 		banlist: ['Uber'],
 		unbanlist: ['Sand Veil',],
