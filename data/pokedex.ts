@@ -20022,8 +20022,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	seedotbetterald: {
 		num: 10022,
 		name: "Seedot-Betterald",
-		baseSpecies: "Seedot",
-		forme: "Alola",
 		types: ["Grass"],
 		baseStats: { hp: 41, atk: 41, def: 51, spa: 31, spd: 31, spe: 31 },
 		abilities: { 0: "Chlorophyll", 1: "Early Bird" },
