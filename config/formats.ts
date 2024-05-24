@@ -27,6 +27,12 @@ export const Formats: FormatList = [
 		// name: "gen9petmods",
 	},
 	{
+		name: "[Gen 3] Betterald 2",
+		mod: 'betterald2',
+		banlist: ['Uber'],
+		unbanlist: ['Sand Veil',],
+	},
+	{
 		name: "[Gen 9] Alternatium EX",
 		desc: `<b>Alternatium EX</b>: A metagame made up of only Pokemon with alternate forms exist, with all of them being seperate and unique Pokemon.`,
 		threads: [
