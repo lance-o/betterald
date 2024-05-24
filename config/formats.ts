@@ -27,7 +27,7 @@ export const Formats: FormatList = [
 		// name: "gen9petmods",
 	},
 	{
-		name: "[Gen 3] Betterald 2",
+		name: "[Gen 9] Betterald 2",
 		mod: 'betterald2',
 		ruleset: ["Standard NatDex", "Data Mod", "Terastal Clause"],
 		onValidateTeam(team, format) {
@@ -36,7 +36,7 @@ export const Formats: FormatList = [
 			for (const set of team) {
 				let template = this.dex.species.get(set.species);
 				if (template.tier !== 'Betterald OU') {
-					return [set.species + ' is not legal in [Gen 3] Betterald 2.'];
+					return [set.species + ' is not legal in [Gen 9] Betterald 2.'];
 				}
 			}
 		},
