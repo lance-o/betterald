@@ -99610,7 +99610,7 @@ battlenose: {
   tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
 },
 },
-beachcubex: {
+beachcube: {
   learnset: {
   tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
 },
@@ -100315,7 +100315,7 @@ seedos: {
   tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
 },
 },
-seedotx: {
+seedotbetterald: {
   learnset: {
   tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
 },
