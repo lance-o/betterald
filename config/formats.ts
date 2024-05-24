@@ -31,6 +31,17 @@ export const Formats: FormatList = [
 		mod: 'betterald2',
 		banlist: ['Uber'],
 		unbanlist: ['Sand Veil',],
+		onValidateTeam(team, format) {
+			/**@type {{[k: string]: true}} */
+			let speciesTable = {};
+			let allowedTiers = ['Betterald OU'];
+			for (const set of team) {
+				let template = this.dex.species.get(set.species);
+				if (!allowedTiers.includes(template.tier)) {
+					return [set.species + ' is not legal in Betterald.'];
+				}
+			}
+		},
 	},
 	{
 		name: "[Gen 9] Alternatium EX",
