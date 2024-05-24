@@ -29,7 +29,6 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 3] Betterald 2",
 		mod: 'betterald2',
-		ruleset: ['HG Standard', 'Data Mod', 'Freeze Clause Mod'],
 		onValidateTeam(team, format) {
 			let speciesTable = {};
 			let allowedTiers = ['Betterald OU'];
