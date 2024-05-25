@@ -2864,7 +2864,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		name: "Poundsauce",
 		types: ["Ground"],
 		gender: "N",
-		baseStats: { hp: 160, atk: 100, def: 100, spa: 120, spd: 160, spe: 80 },
+		baseStats: { hp: 160, atk: 100, def: 140, spa: 120, spd: 160, spe: 80 },
 		abilities: { 0: "Drought" },
 		heightm: 1.5,
 		weightkg: 5.5,
