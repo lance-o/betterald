@@ -32,10 +32,10 @@ export const Formats: FormatList = [
 		ruleset: ['Betterald Ruleset'],
 		onValidateTeam(team, format) {
 			let speciesTable = {};
-			let allowedTiers = ['Betterald OU'];
+			let allowedTiers = ['B-OU'];
 			for (const set of team) {
 				let template = this.dex.species.get(set.species);
-				if (template.tier !== 'Betterald OU') {
+				if (template.tier !== 'B-OU') {
 					return [set.species + ' is not legal in [Gen 3] Betterald 2.'];
 				}
 			}

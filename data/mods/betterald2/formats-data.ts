@@ -1,605 +1,605 @@
 export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 	adamantris: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	aetherpent: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	akopi: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ameguano: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ammunick: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ankyron: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	arphillery: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	articfly: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	asterf: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	babybolt: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	battlenose: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	beachcube: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	bigbrue: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	bigshaq: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	binglebop: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	bizaare: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	blording: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	boltzy: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	boodle: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	borb: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	bostfright: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	brackedeer: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	burowurm: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	buuny: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	cadirt: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	calibert: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	canishade: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	cascuffle: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	caterchill: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	celesdee: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	centerrayn: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	chillcoon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	chinocido: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	chirpeak: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	chokaze: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	chronorf: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	chubb: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	clevenge: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	clifhead: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	clodd: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	cloriff: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	coroverine: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	cragnet: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	crashilisk: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	crewnium: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	dandyflyon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	dandylion: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	darudape: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	deludent: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	diaguano: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	dimensean: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	dolorgeist: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	drildo: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ducksu: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ecstatick: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	einzarm: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	eleckton: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	eliminape: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	espuahua: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	etchead: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	fixadent: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	flamberd: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	flegs: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	flody: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	flowpiary: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	fuugolf: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	gauntlant: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	gecc: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	geometrick: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	glassilisk: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	golinus: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	goofbass: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	goosgue: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	gopnik: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	gregorlon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	grimodeus: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	grimp: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	groach: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	gyucc: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hachifox: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hallustial: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hamastar: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hamatonic: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	helpmee: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hemaskeeto: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hindenboom: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hobshark: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	honkhonk: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	hoppily: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ichifox: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ike: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	impactaur: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	intesterra: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	jostrich: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	kaber: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	kaens: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	kamizao: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	kapter: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	kaugurise: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	klaximus: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	kwismet: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	lahgoon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	larcenyzel: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	leadaghoul: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	lepsisand: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	longcow: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	lunear: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	marth: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	mcbaphomet: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	mhantom: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	monkrazy: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	mrkrabs: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	mubbius: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	mudbisco: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	mudisco: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	muscleaf: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	narpasord: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	neuroscale: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	noxiousmon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	nuggy: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	omnibola: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	paddetoad: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	parashale: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	pawnr: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	peacreaper: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	pengone: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	pinkgo: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	planktron: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	plommet: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	pluspectre: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	poisonmon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	polcamo: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	polevolt: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	poundsauce: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	pyratinom: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	quadruffle: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	quarophus: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	quostrich: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	rabboom: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	radillo: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	rainwood: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	rambull: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	ratomic: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	recyclimp: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	retrover: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	roguano: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	rookraw: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	runguy: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	salmeal: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	sapleak: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	saviathan: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	seedos: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	seedotbetterald: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	seetres: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	shifox: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	shiroblank: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	silily: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	silverine: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	sinistall: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	sleuther: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	smokaze: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	smooke: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	snoogle: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	snowst: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	solear: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	soulogic: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	spharaoh: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	sphempress: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	squalash: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	stalagnet: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	stohmatic: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	stomm: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	stumpole: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	sykomantis: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tackalf: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	thestorm: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	thonkey: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	thriitake: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tikid: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tikindle: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tikinferno: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tinychu: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tooshroom: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	toxicmon: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tumbling: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	tussleweed: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	twerkyvats: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	vacaguin: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	vampunit: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	vampuny: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	vamsheol: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	voland: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	warnhal: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	weakleaf: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	weaksel: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	wheelo: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	worland: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	wrathilisk: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	wumpydump: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	yediggit: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 	zungarm: {
-		 tier: "Betterald OU",
+		 tier: "B-OU",
 	 },
 };
