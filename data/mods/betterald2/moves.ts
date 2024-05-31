@@ -9,6 +9,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		pp: 20,
 	},
 	bugbite: {
+		inherit: true,
 		gen: 3,
 		desc: "30% chance to flinch.", // long description
 		shortDesc: "30% chance to flinch.", // short description, shows up in /dt
@@ -21,6 +22,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	silverwind: {
 		inherit: true,
+		gen: 3,
 		basePower: 60,
 		pp: 10,
 	},
