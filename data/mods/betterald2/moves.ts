@@ -717,4 +717,33 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		basePower: 100,
 	},
+	crosscut: {
+		accuracy: 100, // a number or true for always hits
+		basePower: 50, // Not used for Status moves, base power of the move, number
+		category: "Physical", // "Physical", "Special", or "Status"
+		desc: "10% chance to lower defense.", // long description
+		shortDesc: "10% chance to lower defense.", // short description, shows up in /dt
+		name: "Cross Cut",
+		pp: 25, // unboosted PP count
+		priority: 0, // move priority, -6 -> 6
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1}, // Move flags https://github.com/smogon/pokemon-showdown/blob/master/data/moves.js#L1-L27
+		onTryMove() {
+			this.attrLastMove('[still]'); // For custom animations
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'X-Scissor', source);
+			this.add('-anim', source, 'X-Scissor', source);
+		}, // For custom animations
+		secondary: {
+			boosts: {
+				def: -1,
+			},
+			chance: 10,
+		}, // secondary, set to null to not use one. Exact usage varies, check data/moves.js for examples
+		target: "normal", // What does this move hit?
+		// normal = the targeted foe, self = the user, allySide = your side (eg light screen), foeSide = the foe's side (eg spikes), all = the field (eg raindance). More can be found in data/moves.js
+		type: "Bug", // The move's type
+		// Other useful things
+		critRatio: 1, // The higher the number (above 1) the higher the ratio, lowering it lowers the crit ratio
+	},
 };
