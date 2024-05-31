@@ -8,6 +8,28 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		basePower: 50,
 		pp: 20,
 	},
+	bugbite: {
+		inherit: true,
+		gen: 3,
+		desc: "30% chance to flinch.", // long description
+		shortDesc: "30% chance to flinch.", // short description, shows up in /dt
+		basePower: 60,
+		pp: 20,
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+	},
+	silverwind: {
+		inherit: true,
+		basePower: 60,
+		pp: 10,
+	},
+	signalbeam: {
+		inherit: true,
+		basePower: 75,
+		pp: 20,
+	},
 	absorb: {
 		inherit: true,
 		pp: 20,
