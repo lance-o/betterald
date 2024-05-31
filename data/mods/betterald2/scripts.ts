@@ -7,7 +7,7 @@ export const Scripts: ModdedBattleScriptsData = {
 	},
 	init() {
 		for (const i in this.data.Moves) {
-			this.modData('Moves', i).category = this.modData('Moves', i).category;
+			this.modData('Moves', i).category = 'Status';
 		}
 	},
 };
