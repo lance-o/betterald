@@ -1,3 +1,5 @@
+import { movesUpdate } from "../../mods/betterald2/movesUpdate";
+
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen4',
 	gen: 3,
@@ -6,8 +8,6 @@ export const Scripts: ModdedBattleScriptsData = {
 		customTiers: ['B-OU'],
 	},
 	init() {
-		for (const i in this.data.Moves) {
-			this.modData('Moves', i).category = this.modData('Moves', i).category;
-		}
+		movesUpdate(this);
 	},
 };
