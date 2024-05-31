@@ -8,6 +8,7 @@ export const Learnsets: {[speciesid: string]: ModdedLearnsetData} = {
    learnset: {
 			tackle: ["3L1"],
 			signalbeam: ["3L1"],
+			takedown: ["3L1"],
 
    },
  },
