@@ -22,9 +22,13 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	silverwind: {
 		inherit: true,
-		gen: 3,
 		basePower: 60,
 		pp: 10,
+	},
+	signalbeam: {
+		inherit: true,
+		basePower: 75,
+		pp: 20,
 	},
 	absorb: {
 		inherit: true,

@@ -6,7 +6,9 @@ export const Learnsets: {[speciesid: string]: ModdedLearnsetData} = {
 	// 3T = gen 3, tutor.
 	adamantris: {
    learnset: {
-   tackle: ["3L1"],
+			tackle: ["3L1"],
+			signalbeam: ["3L1"],
+
    },
  },
 aetherpent: {
