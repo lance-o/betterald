@@ -25,10 +25,13 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		basePower: 60,
 		pp: 10,
 	},
-	signalbeam: {
+	knockoff: {
 		inherit: true,
-		basePower: 75,
-		pp: 20,
+		basePower: 30,
+	},
+	thief: {
+		inherit: true,
+		basePower: 50,
 	},
 	absorb: {
 		inherit: true,
@@ -405,6 +408,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	furycutter: {
 		inherit: true,
+		basePower: 20,
 		onHit(target, source) {
 			source.addVolatile('furycutter');
 		},
@@ -773,5 +777,84 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		type: "Bug", // The move's type
 		// Other useful things
 		critRatio: 1, // The higher the number (above 1) the higher the ratio, lowering it lowers the crit ratio
+	},
+	crushcutter: {
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		desc: "10% chance to lower defense.",
+		shortDesc: "10% chance to lower defense.",
+		name: "Crush Cutter",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'X-Scissor', source);
+			this.add('-anim', source, 'X-Scissor', source);
+		},
+		secondary: {
+			boosts: {
+				def: -1,
+			},
+			chance: 10,
+		},
+		target: "normal",
+		type: "Bug",
+		critRatio: 1,
+	},
+	strangleweb: {
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		desc: "10% chance to lower speed.",
+		shortDesc: "10% chance to lower speed.",
+		name: "Strangle Web",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Sticky Web', source);
+			this.add('-anim', source, 'Sticky Web', source);
+		},
+		secondary: {
+			boosts: {
+				spe: -1,
+			},
+			chance: 10,
+		},
+		target: "normal",
+		type: "Bug",
+		critRatio: 1,
+	},
+	shadowpurge: {
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		desc: "+1 priority.",
+		shortDesc: "+1 priority.",
+		name: "Shadow Purge",
+		gen: 3,
+		pp: 25,
+		priority: 1,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Shadow Ball', source);
+			this.add('-anim', source, 'Shadow Ball', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		critRatio: 1,
 	},
 };
