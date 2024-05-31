@@ -33,6 +33,27 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		inherit: true,
 		basePower: 50,
 	},
+	pursuit: {
+		inherit: true,
+		basePower: 50,
+	},
+	bounce: {
+		inherit: true,
+		condition: {
+			duration: 2,
+			onInvulnerability(target, source, move) {
+				if (['gust', 'shoryuken', 'twister', 'skyuppercut', 'thunder', 'hurricane', 'smackdown', 'thousandarrows'].includes(move.id)) {
+					return;
+				}
+				return false;
+			},
+			onSourceBasePower(basePower, target, source, move) {
+				if (move.id === 'gust' || move.id === 'twister') {
+					return this.chainModify(2);
+				}
+			},
+		},
+	},
 	absorb: {
 		inherit: true,
 		pp: 20,
@@ -66,7 +87,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		onModifyMove(move, pokemon) {
 			pokemon.addVolatile('beatup');
 			move.type = '???';
-			move.category = 'Special';
+			move.category = 'Physical';
 			move.allies = pokemon.side.pokemon.filter(ally => !ally.fainted && !ally.status);
 			move.multihit = move.allies.length;
 		},
@@ -219,7 +240,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		secondary: {
 			chance: 20,
 			boosts: {
-				spd: -1,
+				def: -1,
 			},
 		},
 	},
@@ -373,6 +394,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	feintattack: {
 		inherit: true,
+		name: "Faint Attack",
+		basePower: 70,
 		flags: {protect: 1, mirror: 1, metronome: 1},
 	},
 	flash: {
@@ -382,6 +405,20 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	fly: {
 		inherit: true,
 		basePower: 70,
+		condition: {
+			duration: 2,
+			onInvulnerability(target, source, move) {
+				if (['gust', 'shoryuken', 'twister', 'skyuppercut', 'thunder', 'hurricane', 'smackdown', 'thousandarrows'].includes(move.id)) {
+					return;
+				}
+				return false;
+			},
+			onSourceBasePower(basePower, target, source, move) {
+				if (move.id === 'gust' || move.id === 'twister') {
+					return this.chainModify(2);
+				}
+			},
+		},
 	},
 	followme: {
 		inherit: true,
@@ -752,8 +789,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		accuracy: 100, // a number or true for always hits
 		basePower: 50, // Not used for Status moves, base power of the move, number
 		category: "Physical", // "Physical", "Special", or "Status"
-		desc: "10% chance to lower defense.", // long description
-		shortDesc: "10% chance to lower defense.", // short description, shows up in /dt
+		desc: "10% chance to lower target Defense by 1.", // long description
+		shortDesc: "10% chance to lower target Defense by 1.", // short description, shows up in /dt
 		name: "Cross Cut",
 		gen: 3,
 		pp: 25, // unboosted PP count
@@ -782,8 +819,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		desc: "10% chance to lower defense.",
-		shortDesc: "10% chance to lower defense.",
+		desc: "10% chance to lower target Defense by 1.",
+		shortDesc: "10% chance to lower target Defense by 1.",
 		name: "Crush Cutter",
 		gen: 3,
 		pp: 15,
@@ -810,8 +847,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
-		desc: "10% chance to lower speed.",
-		shortDesc: "10% chance to lower speed.",
+		desc: "10% chance to lower target Speed by 1.",
+		shortDesc: "10% chance to lower target Speed by 1.",
 		name: "Strangle Web",
 		gen: 3,
 		pp: 15,
@@ -855,6 +892,126 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		secondary: null,
 		target: "normal",
 		type: "Dark",
+		critRatio: 1,
+	},
+	blackritual: {
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		desc: "10% chance to lower target Sp.Def by 1.",
+		shortDesc: "10% chance to lower target Sp.Def by 1.",
+		name: "Shadow Purge",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Grudge', source);
+			this.add('-anim', source, 'Grudge', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		critRatio: 1,
+	},
+	evileye: {
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		desc: "Lowers target Def and Sp.Def by 1.",
+		shortDesc: "Lowers target Def and Sp.Def by 1.",
+		name: "Evil Eye",
+		pp: 20,
+		priority: 0,
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Mean Look', source);
+			this.add('-anim', source, 'Mean Look', source);
+		},
+		flags: { protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1 },
+		boosts: {
+			atk: -1,
+			def: -1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+	},
+	shoryuken: {
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		desc: "Can hit Pokemon during semi-invulnerable turns of Fly and Bounce.",
+		shortDesc: "Can hit Pokemon during Fly and Bounce.",
+		name: "Shoryuken",
+		pp: 15,
+		priority: 0,
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Sky Uppercut', source);
+			this.add('-anim', source, 'Sky Uppercut', source);
+		},
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+	},
+	dragonblast: {
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Dragon Blast",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Dragon Pulse', source);
+			this.add('-anim', source, 'Dragon Pulse', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+		critRatio: 1,
+	},
+	ebolawrath: {
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		desc: "30% chance to raise user Attack by 1.",
+		shortDesc: "30% chance to raise user Attack by 1.",
+		name: "Ebola Wrath",
+		gen: 3,
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Eternabeam', source);
+			this.add('-anim', source, 'Eternabeam', source);
+		},
+		secondary: {
+			chance: 30,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Dragon",
 		critRatio: 1,
 	},
 };
