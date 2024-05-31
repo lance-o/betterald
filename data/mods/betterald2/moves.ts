@@ -2,7 +2,24 @@
  * Gen 3 moves
  */
 
-export const Moves: {[k: string]: ModdedMoveData} = {
+export const Moves: { [k: string]: ModdedMoveData } = {
+	leechlife: {
+		inherit: true,
+		basePower: 50,
+		pp: 20,
+	},
+	bugbite: {
+		inherit: true,
+		gen: 3,
+		desc: "30% chance to flinch.", // long description
+		shortDesc: "30% chance to flinch.", // short description, shows up in /dt
+		basePower: 60,
+		pp: 20,
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+	},
 	absorb: {
 		inherit: true,
 		pp: 20,
@@ -724,6 +741,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		desc: "10% chance to lower defense.", // long description
 		shortDesc: "10% chance to lower defense.", // short description, shows up in /dt
 		name: "Cross Cut",
+		gen: 3,
 		pp: 25, // unboosted PP count
 		priority: 0, // move priority, -6 -> 6
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1}, // Move flags https://github.com/smogon/pokemon-showdown/blob/master/data/moves.js#L1-L27
