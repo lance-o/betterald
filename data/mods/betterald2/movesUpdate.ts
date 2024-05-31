@@ -2,5 +2,5 @@
 import { ModdedDex } from "../../../sim/dex";
 
 export function movesUpdate(dex: ModdedDex) {
-	dex.modData("Moves", "signalbeam").category = "Special";
+	dex.modData("Moves", "Signal Beam").category = "Special";
 };
