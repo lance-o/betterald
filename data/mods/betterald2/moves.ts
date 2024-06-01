@@ -1059,8 +1059,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'X-Scissor', source);
-			this.add('-anim', source, 'X-Scissor', source);
+			this.add('-anim', source, 'X-Scissor', target);
+			this.add('-anim', source, 'X-Scissor', target);
 		},
 		secondary: {
 			boosts: {
@@ -1086,7 +1086,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Sticky Web', source);
+			this.add('-anim', source, 'Sticky Web', target);
 		},
 		secondary: {
 			boosts: {
@@ -1112,7 +1112,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Shadow Ball', source);
+			this.add('-anim', source, 'Shadow Ball', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1133,7 +1133,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Grudge', source);
+			this.add('-anim', source, 'Grudge', target);
 		},
 		secondary: {
 			chance: 10,
@@ -1157,7 +1157,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Mean Look', source);
+			this.add('-anim', source, 'Mean Look', target);
 		},
 		flags: { protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1 },
 		boosts: {
@@ -1181,7 +1181,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Sky Uppercut', source);
+			this.add('-anim', source, 'Sky Uppercut', target);
 		},
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		secondary: null,
@@ -1203,7 +1203,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Dragon Pulse', source);
+			this.add('-anim', source, 'Dragon Pulse', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1224,7 +1224,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Eternabeam', source);
+			this.add('-anim', source, 'Eternabeam', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1252,7 +1252,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Tackle', source);
+			this.add('-anim', source, 'Tackle', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1284,7 +1284,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Zap Cannon', source);
+			this.add('-anim', source, 'Zap Cannon', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1334,7 +1334,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Jump Kick', source);
+			this.add('-anim', source, 'Jump Kick', target);
 		},
 		onAfterHit(target, source) {
 			if (source.hp) {
@@ -1362,7 +1362,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Karate Chop', source);
+			this.add('-anim', source, 'Karate Chop', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1385,7 +1385,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Aura Sphere', source);
+			this.add('-anim', source, 'Aura Sphere', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1406,7 +1406,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Superpower', source);
+			this.add('-anim', source, 'Superpower', target);
 		},
 		secondary: {
 			chance: 100,
@@ -1437,7 +1437,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Mega Kick', source);
+			this.add('-anim', source, 'Mega Kick', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1457,7 +1457,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Submission', source);
+			this.add('-anim', source, 'Submission', target);
 		},
 		recoil: [33, 100],
 		secondary: null,
@@ -1479,7 +1479,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Dragon Rage', source);
+			this.add('-anim', source, 'Dragon Rage', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1500,7 +1500,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Fire Spin', source);
+			this.add('-anim', source, 'Fire Spin', target);
 		},
 		secondary: {
 			chance: 10,
@@ -1524,7 +1524,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Flame Burst', source);
+			this.add('-anim', source, 'Flame Burst', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1548,7 +1548,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Blaze Kick', source);
+			this.add('-anim', source, 'Blaze Kick', target);
 		},
 		hasCrashDamage: true,
 		onMoveFail(target, source, move) {
@@ -1575,7 +1575,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Blast Burn', source);
+			this.add('-anim', source, 'Blast Burn', target);
 		},
 		recoil: [33, 100],
 		secondary: null,
@@ -1597,7 +1597,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Drill Peck', source);
+			this.add('-anim', source, 'Drill Peck', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1643,7 +1643,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Giga Drain', source);
+			this.add('-anim', source, 'Giga Drain', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1662,7 +1662,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Mean Look', source);
+			this.add('-anim', source, 'Mean Look', target);
 		},
 		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
 		status: 'par',
@@ -1687,7 +1687,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Needle Arm', source);
+			this.add('-anim', source, 'Needle Arm', target);
 		},
 		secondary: {
 			chance: 20,
@@ -1711,7 +1711,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Magical Leaf', source);
+			this.add('-anim', source, 'Magical Leaf', target);
 		},
 		secondary: {
 			chance: 10,
@@ -1737,7 +1737,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Frenzy Plant', source);
+			this.add('-anim', source, 'Frenzy Plant', target);
 		},
 		secondary: {
 			chance: 10,
@@ -1761,7 +1761,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Petal Dance', source);
+			this.add('-anim', source, 'Petal Dance', target);
 		},
 		self: {
 			boosts: {
@@ -1785,7 +1785,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Grass Whistle', source);
+			this.add('-anim', source, 'Grass Whistle', target);
 		},
 		status: 'slp',
 		secondary: null,
@@ -1808,7 +1808,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Sand Tomb', source);
+			this.add('-anim', source, 'Sand Tomb', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1832,7 +1832,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Muddy Water', source);
+			this.add('-anim', source, 'Muddy Water', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1860,7 +1860,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Icicle Spear', source);
+			this.add('-anim', source, 'Icicle Spear', target);
 		},
 		multihit: 3,
 		multiaccuracy: true,
@@ -1883,7 +1883,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Sheer Cold', source);
+			this.add('-anim', source, 'Sheer Cold', target);
 		},
 		secondary: {
 			chance: 40,
@@ -1966,7 +1966,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Flail', source);
+			this.add('-anim', source, 'Flail', target);
 		},
 		secondary: {
 			chance: 30,
@@ -1990,7 +1990,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'G-Max Gold Rush', source);
+			this.add('-anim', source, 'G-Max Gold Rush', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -2038,7 +2038,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			return null;
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Doom Desire', source);
+			this.add('-anim', source, 'Doom Desire', target);
 		},
 		secondary: null,
 		target: "normal",
