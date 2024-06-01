@@ -1,4 +1,7 @@
 export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
+	smeargle: {
+		tier: "B-OU",
+	},
 	adamantris: {
 		 tier: "B-OU",
 	 },
