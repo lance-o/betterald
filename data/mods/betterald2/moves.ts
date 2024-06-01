@@ -54,6 +54,32 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			},
 		},
 	},
+	shockwave: {
+		inherit: true,
+		basePower: 70,
+	},
+	thunder: {
+		inherit: true,
+		accuracy: 75,
+	},
+	triplekick: {
+		inherit: true,
+		basePower: 15,
+	},
+	vitalthrow: {
+		inherit: true,
+		basePower: 80,
+		pp: 15,
+	},
+	dynamicpunch: {
+		inherit: true,
+		basePower: 110,
+		accuracy: 60,
+	},
+	willowisp: {
+		inherit: true,
+		accuracy: 90,
+	},
 	absorb: {
 		inherit: true,
 		pp: 20,
@@ -394,7 +420,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	feintattack: {
 		inherit: true,
-		name: "Faint Attack",
 		basePower: 70,
 		flags: {protect: 1, mirror: 1, metronome: 1},
 	},
@@ -469,7 +494,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	highjumpkick: {
 		inherit: true,
-		basePower: 85,
+		basePower: 100,
 		onMoveFail(target, source, move) {
 			if (target.runImmunity('Fighting')) {
 				const damage = this.actions.getDamage(source, target, move, true);
@@ -586,10 +611,11 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	outrage: {
 		inherit: true,
-		basePower: 90,
+		basePower: 120,
 	},
 	overheat: {
 		inherit: true,
+		accuracy: 100,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
 	},
 	petaldance: {
@@ -602,7 +628,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	rocksmash: {
 		inherit: true,
-		basePower: 20,
+		basePower: 50,
 	},
 	sketch: {
 		inherit: true,
@@ -801,7 +827,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'X-Scissor', source);
-			this.add('-anim', source, 'X-Scissor', source);
 		}, // For custom animations
 		secondary: {
 			boosts: {
@@ -841,7 +866,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		target: "normal",
 		type: "Bug",
-		critRatio: 1,
 	},
 	strangleweb: {
 		accuracy: 100,
@@ -859,7 +883,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Sticky Web', source);
-			this.add('-anim', source, 'Sticky Web', source);
 		},
 		secondary: {
 			boosts: {
@@ -869,7 +892,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		target: "normal",
 		type: "Bug",
-		critRatio: 1,
 	},
 	shadowpurge: {
 		accuracy: 100,
@@ -887,12 +909,10 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Shadow Ball', source);
-			this.add('-anim', source, 'Shadow Ball', source);
 		},
 		secondary: null,
 		target: "normal",
 		type: "Dark",
-		critRatio: 1,
 	},
 	blackritual: {
 		accuracy: 100,
@@ -900,7 +920,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		category: "Special",
 		desc: "10% chance to lower target Sp.Def by 1.",
 		shortDesc: "10% chance to lower target Sp.Def by 1.",
-		name: "Shadow Purge",
+		name: "Black Ritual",
 		gen: 3,
 		pp: 15,
 		priority: 0,
@@ -910,19 +930,17 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Grudge', source);
-			this.add('-anim', source, 'Grudge', source);
 		},
 		secondary: null,
 		target: "normal",
 		type: "Dark",
-		critRatio: 1,
 	},
 	evileye: {
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
-		desc: "Lowers target Def and Sp.Def by 1.",
-		shortDesc: "Lowers target Def and Sp.Def by 1.",
+		desc: "Lowers target Atk and Def by 1.",
+		shortDesc: "Lowers target Atk and Def by 1.",
 		name: "Evil Eye",
 		pp: 20,
 		priority: 0,
@@ -930,7 +948,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Mean Look', source);
 			this.add('-anim', source, 'Mean Look', source);
 		},
 		flags: { protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1 },
@@ -956,7 +973,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Sky Uppercut', source);
-			this.add('-anim', source, 'Sky Uppercut', source);
 		},
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		secondary: null,
@@ -967,6 +983,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		accuracy: 100,
 		basePower: 95,
 		category: "Special",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 		name: "Dragon Blast",
 		gen: 3,
 		pp: 15,
@@ -977,12 +995,10 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Dragon Pulse', source);
-			this.add('-anim', source, 'Dragon Pulse', source);
 		},
 		secondary: null,
 		target: "normal",
 		type: "Dragon",
-		critRatio: 1,
 	},
 	ebolawrath: {
 		accuracy: 100,
@@ -1000,7 +1016,6 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		onPrepareHit(target, source) {
 			this.add('-anim', source, 'Eternabeam', source);
-			this.add('-anim', source, 'Eternabeam', source);
 		},
 		secondary: {
 			chance: 30,
@@ -1012,6 +1027,350 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		},
 		target: "normal",
 		type: "Dragon",
-		critRatio: 1,
+	},
+	slamdunk: {
+		accuracy: 100,
+		basePower: 150,
+		category: "Special",
+		desc: "30% chance to raise all stats by 1.",
+		shortDesc: "30% chance to raise all stats by 1.",
+		name: "Slam Dunk",
+		gen: 3,
+		pp: 5,
+		priority: 0,
+		flags: { metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Tackle', source);
+		},
+		secondary: {
+			chance: 30,
+			self: {
+				boosts: {
+					atk: 1,
+					def: 1,
+					spa: 1,
+					spd: 1,
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Dragon",
+	},
+	hungerbolt: {
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		desc: "30% chance to raise user Defense by 1.",
+		shortDesc: "30% chance to raise user Defense by 1.",
+		name: "Ebola Wrath",
+		gen: 3,
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Zap Cannon', source);
+		},
+		secondary: {
+			chance: 30,
+			self: {
+				boosts: {
+					def: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Electric",
+	},
+	voltup: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Raises user Sp.Atk by 1.",
+		shortDesc: "Raises user Sp.Atk by 1.",
+		name: "Volt Up",
+		pp: 40,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Charge', source);
+		},
+		boosts: {
+			spa: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Electric",
+	},
+	kickaway: {
+		accuracy: 100,
+		basePower: 30,
+		category: "Physical",
+		desc: "Removes target's item.",
+		shortDesc: "Removes target's item.",
+		name: "Kick Away",
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Jump Kick', source);
+		},
+		onAfterHit(target, source) {
+			if (source.hp) {
+				const item = target.takeItem();
+				if (item) {
+					this.add('-enditem', target, item.name, '[from] move: Kick Away', '[of] ' + source);
+				}
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
+	},
+	cheapshot: {
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		desc: "30% chance to flinch.",
+		shortDesc: "30% chance to flinch.",
+		name: "Cheap Shot",
+		pp: 30,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Karate Chop', source);
+		},
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Fighting",
+	},
+	hadouken: {
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		name: "Hadouken",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Aura Sphere', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
+	},
+	superfight: {
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		desc: "100% chance to raise all stats by 1.",
+		shortDesc: "100% chance to raise all stats by 1.",
+		name: "Superfight",
+		pp: 1,
+		noPPBoosts: true,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Superpower', source);
+		},
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					atk: 1,
+					def: 1,
+					spa: 1,
+					spd: 1,
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Fighting",
+	},
+	superkick: {
+		accuracy: 85,
+		basePower: 120,
+		category: "Physical",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		name: "Super Kick",
+		pp: 5,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Mega Kick', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
+	},
+	hellwheel: {
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		desc: "Has 33% recoil.",
+		shortDesc: "Has 33% recoil.",
+		name: "Hell Wheel",
+		pp: 15,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Submission', source);
+		},
+		recoil: [33, 100],
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
+	},
+	spitfire: {
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		desc: "+1 priority.",
+		shortDesc: "+1 priority.",
+		name: "Spitfire",
+		gen: 3,
+		pp: 25,
+		priority: 1,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Dragon Rage', source);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+	},
+	Wildfire: {
+		accuracy: 100,
+		basePower: 65,
+		category: "Special",
+		desc: "10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target.",
+		name: "Wildfire",
+		gen: 3,
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Fire Spin', source);
+		},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+	},
+	heatburst: {
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		desc: "30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
+		name: "Heat Burst",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Flame Burst', source);
+		},
+		secondary: {
+			chance: 30,
+			status: 'brn',
+		},
+		target: "allAdjacentFoes",
+		type: "Fire",
+	},
+	jetkick: {
+		accuracy: 90,
+		basePower: 100,
+		category: "Physical",
+		desc: "User is hurt by 1/8 of damage it would have dealt if it misses.",
+		shortDesc: "User is hurt by 1/8 of damage if it misses.",
+		name: "Jet Kick",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Blaze Kick', source);
+		},
+		hasCrashDamage: true,
+		onMoveFail(target, source, move) {
+			if (target.runImmunity('Fire')) {
+				const damage = this.actions.getDamage(source, target, move, true);
+				if (typeof damage !== 'number') throw new Error("Jet Kick didn't recoil");
+				this.damage(this.clampIntRange(damage / 2, 1, Math.floor(target.maxhp / 2)), source, source, move);
+			}
+		},
+		target: "normal",
+		type: "Fire",
+	},
+	steelmelter: {
+		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		desc: "Has 33% recoil.",
+		shortDesc: "Has 33% recoil.",
+		name: "Steel Melter",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Blast Burn', source);
+		},
+		recoil: [33, 100],
+		secondary: null,
+		target: "normal",
+		type: "Fire",
 	},
 };
