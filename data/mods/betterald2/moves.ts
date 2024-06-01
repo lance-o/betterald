@@ -2034,14 +2034,11 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 					type: '???',
 				},
 			});
-			this.add('-start', source, 'Time Bomb');
+			this.add('-start', source, 'Future Sight');
 			return null;
 		},
-		onTryMove() {
-			this.attrLastMove('[still]');
-		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'G-Max Gold Rush', source);
+			this.add('-anim', source, 'Doom Desire', source);
 		},
 		secondary: null,
 		target: "normal",
