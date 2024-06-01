@@ -1030,7 +1030,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]'); // For custom animations
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'X-Scissor', source);
+			this.add('-anim', source, 'X-Scissor', target);
 		}, // For custom animations
 		secondary: {
 			boosts: {
