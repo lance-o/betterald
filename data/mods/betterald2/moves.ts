@@ -1915,7 +1915,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		category: "Special",
 		desc: "30% chance to flinch.", // long description
 		shortDesc: "30% chance to flinch.", // short description, shows up in /dt
-		name: "Dust devil",
+		name: "Dust Devil",
 		gen: 3,
 		pp: 15,
 		priority: 0,
@@ -2391,10 +2391,35 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		target: "normal",
 		type: "Psychic",
 	},
+	clearmind: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Raises user Special Attack by 2.",
+		shortDesc: "Raises user Special Attack by 2.",
+		name: "Clear Mind",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Nasty Plot', source);
+		},
+		boosts: {
+			spa: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Psychic",
+	},
 	boulderbomb: {
 		accuracy: 90,
 		basePower: 50,
 		category: "Physical",
+		desc: "Hits two times.",
+		shortDesc: "Hits two times.",
 		name: "Boulder Bomb",
 		pp: 10,
 		priority: 0,
@@ -2487,7 +2512,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		category: "Special",
 		desc: "50% chance to lower target Special Defense by 1.",
 		shortDesc: "50% chance to lower target Special Defense by 1.",
-		name: "Push of Pike",
+		name: "Spin Cycle",
 		gen: 3,
 		pp: 20,
 		priority: 0,
