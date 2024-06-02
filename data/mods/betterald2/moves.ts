@@ -289,21 +289,140 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		inherit: true,
 		basePower: 120,
 	},
+	supersonic: {
+		inherit: true,
+		accuracy: 60,
+	},
+	screech: {
+		inherit: true,
+		accuracy: 100,
+	},
+	lovelykiss: {
+		inherit: true,
+		accuracy: 80,
+	},
+	scaryface: {
+		inherit: true,
+		accuracy: 100,
+	},
+	morningsun: {
+		inherit: true,
+		pp: 10,
+	},
+	moonlight: {
+		inherit: true,
+		pp: 10,
+	},
+	poisonsting: {
+		inherit: true,
+		basePower: 25,
+	},
+	smog: {
+		inherit: true,
+		basePower: 25,
+		accuracy: 100,
+	},
+	poisonfang: {
+		inherit: true,
+		desc: "20% chance to inflicy Badly Poisoned.",
+		shortDesc: "20% chance to inflicy Badly Poisoned.",
+		basePower: 70,
+		secondary: {
+			chance: 20,
+			status: 'tox',
+		},
+	},
+	poisonjab: {
+		inherit: true,
+		gen: 3,
+		pp: 20,
+	},
+	poisonpowder: {
+		inherit: true,
+		accuracy: 100,
+	},
+	toxic: {
+		inherit: true,
+		accuracy: 90,
+	},
+	poisongas: {
+		inherit: true,
+		accuracy: 100,
+	},
+	psychic: {
+		inherit: true,
+		basePower: 95,
+	},
+	futuresight: {
+		inherit: true,
+		basePower: 110,
+		accuracy: 100,
+		pp: 10,
+	},
+	bulletpunch: {
+		inherit: true,
+		gen: 3,
+	},
+	metalclaw: {
+		inherit: true,
+		accuracy: 100,
+	},
+	flashcannon: {
+		inherit: true,
+		gen: 3,
+	},
+	crabhammer: {
+		inherit: true,
+		accuracy: 100,
+	},
+	hydropump: {
+		inherit: true,
+		accuracy: 85,
+	},
+	irontail: {
+		inherit: true,
+		basePower: 90,
+		desc: "20% chance to lower target Defense by 1.",
+		shortDesc: "20% chance to lower target Defense by 1.",
+		accuracy: 90,
+		secondary: {
+			boosts: {
+				def: -1,
+			},
+			chance: 20,
+		},
+	},
 	absorb: {
 		inherit: true,
 		pp: 15,
 	},
+	rockthrow: {
+		inherit: true,
+		accuracy: 100,
+		pp: 25,
+	},
+	rocktomb: {
+		inherit: true,
+		accuracy: 90,
+	},
+	rockslide: {
+		inherit: true,
+		accuracy: 100,
+	},
 	acid: {
 		inherit: true,
+		desc: "20% chance to lower target Sp.Def by 1.",
+		shortDesc: "20% chance to lower target Sp.Def by 1.",
 		secondary: {
-			chance: 10,
+			chance: 20,
 			boosts: {
-				def: -1,
+				spd: -1,
 			},
 		},
 	},
 	ancientpower: {
 		inherit: true,
+		pp: 10,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
 	},
 	assist: {
@@ -488,7 +607,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	disable: {
 		inherit: true,
-		accuracy: 55,
+		accuracy: 100,
 		flags: {protect: 1, mirror: 1, bypasssub: 1, metronome: 1},
 		volatileStatus: 'disable',
 		condition: {
@@ -536,7 +655,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	dive: {
 		inherit: true,
-		basePower: 60,
+		basePower: 80,
 	},
 	doomdesire: {
 		inherit: true,
@@ -625,6 +744,10 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			if (target.volatiles['minimize']) return 160;
 			return 80;
 		},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'flinch',
+		},
 	},
 	fakeout: {
 		inherit: true,
@@ -637,7 +760,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	flash: {
 		inherit: true,
-		accuracy: 70,
+		accuracy: 100,
 	},
 	fly: {
 		inherit: true,
@@ -689,16 +812,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	glare: {
 		inherit: true,
+		accuracy: 100,
 		ignoreImmunity: false,
-	},
-	hiddenpower: {
-		inherit: true,
-		category: "Physical",
-		onModifyMove(move, pokemon) {
-			move.type = pokemon.hpType || 'Dark';
-			const specialTypes = ['Fire', 'Water', 'Grass', 'Ice', 'Electric', 'Dark', 'Psychic', 'Dragon'];
-			move.category = specialTypes.includes(move.type) ? 'Special' : 'Physical';
-		},
 	},
 	highjumpkick: {
 		inherit: true,
@@ -713,7 +828,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 	},
 	hypnosis: {
 		inherit: true,
-		accuracy: 60,
+		accuracy: 70,
 	},
 	jumpkick: {
 		inherit: true,
@@ -1643,7 +1758,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', source, 'Giga Drain', target);
+			this.add('-anim', source, 'Oblivion Wing', target);
 		},
 		secondary: null,
 		target: "normal",
@@ -1777,6 +1892,8 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		accuracy: 55,
 		basePower: 0,
 		category: "Status",
+		desc: "It's green sing.",
+		shortDesc: "It's green sing.",
 		name: "Green Sing",
 		pp: 15,
 		priority: 0,
@@ -2023,7 +2140,7 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 				move: 'timebomb',
 				source: source,
 				moveData: {
-					id: 'timebomb',
+					id: 'doomdesire',
 					name: "Time Bomb",
 					accuracy: 100,
 					basePower: 0,
@@ -2043,5 +2160,377 @@ export const Moves: { [k: string]: ModdedMoveData } = {
 		secondary: null,
 		target: "normal",
 		type: "Normal",
+	},
+	gigapunch: {
+		accuracy: 90,
+		basePower: 150,
+		category: "Physical",
+		desc: "User recharges afterwards.",
+		shortDesc: "User recharges afterwards.",
+		name: "Giga Punch",
+		gen: 3,
+		pp: 5,
+		priority: 0,
+		flags: { contact:1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Giga Impact', target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+	},
+	recede: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Raises user Defense by 1. Priority +1.",
+		shortDesc: "Raises user Defense by 1. Priority +1.",
+		name: "Recede",
+		pp: 30,
+		priority: 1,
+		flags: { snatch: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Harden', source);
+		},
+		boosts: {
+			def: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+	},
+	rebuild: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Restores user HP by 50%.",
+		shortDesc: "Restores user HP by 50%.",
+		name: "Rebuild",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1, heal: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Conversion', source);
+		},
+		heal: [1, 2],
+		secondary: null,
+		target: "self",
+		type: "Normal",
+	},
+	swiftkiss: {
+		accuracy: 75,
+		basePower: 0,
+		category: "Status",
+		desc: "Confuses target. Priority +1.",
+		shortDesc: "Confuses target. Priority +1.",
+		name: "Swift Kiss",
+		pp: 15,
+		priority: 1,
+		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Sweet Kiss', target);
+		},
+		volatileStatus: 'confusion',
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+	},
+	gasbomb: {
+		accuracy: 100,
+		basePower: 75,
+		category: "Special",
+		desc: "30% chance to Confuse target.",
+		shortDesc: "30% chance to Confuse target.",
+		name: "Gas Bomb",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Smog', target);
+		},
+		secondary: {
+			chance: 30,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Poison",
+	},
+	venomlunge: {
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		desc: "Has 33% recoil.",
+		shortDesc: "Has 33% recoil.",
+		name: "Venom Lunge",
+		pp: 15,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Poison Tail', target);
+		},
+		recoil: [33, 100],
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+	},
+	zenpunch: {
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		desc: "10% chance to Confuse target.",
+		shortDesc: "10% chance to Confuse target.",
+		name: "Zen Punch",
+		gen: 3,
+		pp: 15,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Calm Mind', source);
+			this.add('-anim', source, 'Mega Punch', target);
+		},
+		secondary: {
+			chance: 10,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Psychic",
+	},
+	psychoblitz: {
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		desc: "Lowers the user's Attack and Defense by 1.",
+		shortDesc: "Lowers the user's Attack and Defense by 1.",
+		name: "Psycho Blitz",
+		gen: 3,
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Psych Up', source);
+			this.add('-anim', source, 'Zen Headbutt', target);
+		},
+		self: {
+			boosts: {
+				atk: -1,
+				def: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	concentrate: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Raises user Special Attack by 1.",
+		shortDesc: "Raises user Special Attack by 1.",
+		name: "Concentrate",
+		pp: 40,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Calm Mind', source);
+		},
+		boosts: {
+			spa: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Psychic",
+	},
+	mindshock: {
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		desc: "Lowers target Special Defense by 2.",
+		shortDesc: "Lowers target Special Defense by 2.",
+		name: "Mind Shock",
+		pp: 20,
+		priority: 0,
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Heal Pulse', target);
+		},
+		flags: { protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1 },
+		boosts: {
+			spd: -2,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+	},
+	boulderbomb: {
+		accuracy: 90,
+		basePower: 50,
+		category: "Physical",
+		name: "Boulder Bomb",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Wrock Wrecker', target);
+		},
+		multihit: 2,
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+	},
+	pushofpike: {
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		desc: "10% chance to lower target Defense by 1.",
+		shortDesc: "10% chance to lower target Defense by 1.",
+		name: "Push of Pike",
+		gen: 3,
+		pp: 20,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Behemoth Bash', target);
+		},
+		secondary: {
+			boosts: {
+				def: -1,
+			},
+			chance: 10,
+		},
+		target: "normal",
+		type: "Steel",
+	},
+	cannonball: {
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		name: "Cannonball",
+		gen: 3,
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Flash Cannon', target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+	},
+	fortify: {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Raises user Defense and Special Defense by 1.",
+		shortDesc: "Raises user Defense and Special Defense by 1.",
+		name: "Fortify",
+		pp: 30,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Conversion 2', source);
+		},
+		boosts: {
+			def: 1,
+			spd: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Steel",
+	},
+	spincycle: {
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		desc: "50% chance to lower target Special Defense by 1.",
+		shortDesc: "50% chance to lower target Special Defense by 1.",
+		name: "Push of Pike",
+		gen: 3,
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Whirlpool', target);
+		},
+		secondary: {
+			boosts: {
+				spd: -1,
+			},
+			chance: 50,
+		},
+		target: "normal",
+		type: "Water",
+	},
+	bigblue: {
+		accuracy: 100,
+		basePower: 140,
+		category: "Special",
+		desc: "Lowers the user's Special Attack by 2.",
+		shortDesc: "Lowers the user's Special Attack by 2.",
+		name: "Big Blue",
+		gen: 3,
+		pp: 5,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Hydro Cannon', target);
+		},
+		self: {
+			boosts: {
+				spa: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Water",
 	},
 };
