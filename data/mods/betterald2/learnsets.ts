@@ -5141,7 +5141,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 	pengone: {
 		learnset: {
 			peck: ["3L1"],
-			Iceshard: ["3L1"],
+			iceshard: ["3L1"],
 			watergun: ["3L8"],
 			mist: ["3L15"],
 			powdersnow: ["3L22"],
