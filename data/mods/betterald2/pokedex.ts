@@ -2398,7 +2398,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 		types: ["Rock", "Ground"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 80, atk: 100, def: 130, spa: 55, spd: 65, spe: 100 },
-		abilities: { 0: "Serene Grace", 1: "Early Bird" },
+		abilities: { 0: "Rock Head", 1: "Shell Armor" },
 		heightm: 1.4,
 		weightkg: 110,
 		color: "Black",
