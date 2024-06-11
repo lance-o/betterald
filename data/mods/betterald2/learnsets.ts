@@ -6352,7 +6352,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 			shadowball: ["3L61", "3T"],
 			recover: ["3L66"],
 			blackritual: ["3L71", "3T"],
-			amensia: ["3L76"],
+			amnesia: ["3L76"],
 			calmmind: ["3M"],
 			signalbeam: ["3M"],
 			toxic: ["3M"],
