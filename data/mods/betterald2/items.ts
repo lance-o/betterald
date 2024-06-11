@@ -427,4 +427,23 @@ export const Items: {[k: string]: ModdedItemData} = {
 			}
 		},
 	},
+	deepseascale: {
+		inherit: true,
+		onModifySpDPriority: 2,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Clamperl' || pokemon.baseSpecies.baseSpecies === 'Lahgoon') {
+				return this.chainModify(2);
+			}
+		},
+		itemUser: ["Clamperl", "Lahgoon"],
+	},
+	deepseatooth: {
+		inherit: true,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Clamperl' || pokemon.baseSpecies.baseSpecies === 'Lahgoon') {
+				return this.chainModify(2);
+			}
+		},
+		itemUser: ["Clamperl", "Lahgoon"],
+	},
 };

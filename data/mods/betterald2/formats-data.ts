@@ -39,7 +39,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		 tier: "B-OU",
 	 },
 	bigshaq: {
-		 tier: "B-OU",
+		 tier: "Uber",
 	 },
 	binglebop: {
 		 tier: "B-OU",
@@ -210,7 +210,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		 tier: "B-OU",
 	 },
 	golinus: {
-		 tier: "B-OU",
+		 tier: "Uber",
 	 },
 	goofbass: {
 		 tier: "B-OU",
@@ -360,7 +360,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		 tier: "B-OU",
 	 },
 	omnibola: {
-		 tier: "B-OU",
+		 tier: "Uber",
 	 },
 	paddetoad: {
 		 tier: "B-OU",
@@ -387,7 +387,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		 tier: "B-OU",
 	 },
 	pluspectre: {
-		 tier: "B-OU",
+		 tier: "Uber",
 	 },
 	poisonmon: {
 		 tier: "B-OU",
@@ -399,7 +399,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		 tier: "B-OU",
 	 },
 	poundsauce: {
-		 tier: "B-OU",
+		 tier: "Uber",
 	 },
 	pyratinom: {
 		 tier: "B-OU",
@@ -525,7 +525,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 		 tier: "B-OU",
 	 },
 	thestorm: {
-		 tier: "B-OU",
+		 tier: "Uber",
 	 },
 	thonkey: {
 		 tier: "B-OU",

@@ -51,6 +51,5 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 	},
 	sandstorm: {
 		inherit: true,
-		onModifySpD() {},
 	},
 };
