@@ -429,6 +429,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	deepseascale: {
 		inherit: true,
+		desc: "If held by a Clamperl or by a Lahgoon, its Sp. Def is doubled.",
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
 			if (pokemon.baseSpecies.baseSpecies === 'Clamperl' || pokemon.baseSpecies.baseSpecies === 'Lahgoon') {
@@ -439,6 +440,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	deepseatooth: {
 		inherit: true,
+		desc: "If held by a Clamperl or by a Lahgoon, its Sp. Atk is doubled.",
 		onModifySpA(spa, pokemon) {
 			if (pokemon.baseSpecies.baseSpecies === 'Clamperl' || pokemon.baseSpecies.baseSpecies === 'Lahgoon') {
 				return this.chainModify(2);
