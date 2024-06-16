@@ -239,7 +239,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	},
 	groach: {
 		num: 10017,
-		name: "Ecstatick",
+		name: "Groach",
 		types: ["Bug"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 45, atk: 30, def: 50, spa: 25, spd: 40, spe: 30 },
