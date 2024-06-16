@@ -1584,7 +1584,7 @@ export const Pokedex: { [k: string]: ModdedSpeciesData } = {
 	voland: {
 		num: 10109,
 		name: "Voland",
-		types: ["Ground", "Bug"],
+		types: ["Ground", "Flying"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 101, atk: 94, def: 90, spa: 40, spd: 130, spe: 60 },
 		abilities: { 0: "Sand Veil" },
