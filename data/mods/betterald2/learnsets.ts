@@ -7399,7 +7399,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 	tinychu: {
 		learnset: {
 			superpower: ["3L1"],
-			faintattack: ["3L10"],
+			feintattack: ["3L10"],
 			mirrormove: ["3L20"],
 			ancientpower: ["3L30"],
 			agility: ["3L40"],
