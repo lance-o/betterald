@@ -3680,6 +3680,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 			scaryface: ["3L31"],
 			revenge: ["3L37"],
 			takedown: ["3L43"],
+			vitalthrow: ["3L48"],
 			feintattack: ["3L50"],
 			agility: ["3L57"],
 			doubleedge: ["3L64"],
@@ -3724,6 +3725,9 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 	},
 	intesterra: {
 		learnset: {
+			spitfire: ["3L1"],
+			clearmind: ["3L1"],
+			bulletseed: ["3L1"],
 			mudslap: ["3L1"],
 			leer: ["3L7"],
 			rage: ["3L13"],
@@ -5808,6 +5812,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 			scaryface: ["3L31"],
 			revenge: ["3L37"],
 			takedown: ["3L43"],
+			vitalthrow: ["3L48"],
 			feintattack: ["3L50"],
 			agility: ["3L57"],
 			doubleedge: ["3L64"],
@@ -6739,7 +6744,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 	soulogic: {
 		learnset: {
 			pound: ["3L1"],
-			smellingsalt: ["3L1"],
+			smellingsalts: ["3L1"],
 			thunderwave: ["3L7", "3M"],
 			meditate: ["3L13"],
 			cheapshot: ["3L19"],
