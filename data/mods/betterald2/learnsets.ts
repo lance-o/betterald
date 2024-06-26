@@ -3727,7 +3727,7 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 		learnset: {
 			spitfire: ["3L1"],
 			clearmind: ["3L1"],
-			bulletseed: ["3L1"],
+			bulletseed: ["3L1", "3M"],
 			mudslap: ["3L1"],
 			leer: ["3L7"],
 			rage: ["3L13"],
@@ -3752,7 +3752,6 @@ export const Learnsets: { [speciesid: string]: ModdedLearnsetData } = {
 			facade: ["3M"],
 			secretpower: ["3M"],
 			calmmind: ["3M"],
-			bulletseed: ["3M"],
 			icebeam: ["3M"],
 			thunderbolt: ["3M"],
 			thunder: ["3M"],
